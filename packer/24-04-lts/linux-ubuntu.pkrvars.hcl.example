@@ -13,12 +13,11 @@ vm_guest_os_name    = "ubuntu"
 vm_guest_os_version = "24.04-lts"
 
 // Virtual Machine Guest Operating System Setting
-vm_guest_os_type = "ubuntu64Guest"
+vm_guest_os = "l26"
 
 // Virtual Machine Hardware Settings
-vm_firmware = "efi-secure"
+vm_bios = "seabios"
 
 // Removable Media Settings
-iso_datastore_path       = "iso/linux/ubuntu-server/24-04-lts/amd64"
-iso_content_library_item = "ubuntu-24.04.1-live-server-amd64"
-iso_file                 = "ubuntu-24.04.1-live-server-amd64.iso"
+iso_path       = "local:iso/"
+iso_file                 = "ubuntu-24.04.2-live-server-amd64.iso"
